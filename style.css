@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --base-color:194;
+  --bg-primary: hsl(0, 0%, 100%);
+  --text-color-secondary: hsl(240, 6%, 21%);
+  --bg-icon: hsla(194, 97%, 31%, 1);
+  --text-color-primary: hsl(0, 0%, 100%);
+  --bg-color-light: hsl(var(--base-color), 10%, 94%);
+
+  font-size: 62.5%;
+
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var( --text-color-secondary);
+  font-family:"Roboto", sans-serif;
+  display:grid;
+  min-height: 100vh;
+  align-self: end;
+}
+
+
+
+
+
+
+main {
+  display: flex;
+  gap: 19.2rem;
+  width: 82.1rem;
+  height: 33.6rem;
+
+
+  align-self: end;
+  justify-self: center;
+  padding: 1rem 1rem;
+  margin-bottom: 20rem;
+  margin-top: 20rem;
+}
+
+.hide{
+  display: none;
+}
+
+.dark {
+  --bg-primary: hsl(240, 5%, 5%);
+  --text-color-secondary: hsl(0, 0%, 100%);
+  --bg-icon: hsla(194, 97%, 31%, 1);
+  --text-color-primary: hsl(0, 0%, 100%);
+  --bg-color-light: hsl(240, 5%, 10%);
+}
+
+.dark button {
+  background-color: var(--bg-icon);
+  color: var(--text-color-primary);
+}
+
+
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.red {
+  background-color: red;
+}
+
+button.active {
+  background-color: green;
+  color: white;
+}
+
+
+#container {
+  width: 32.8rem;
+  height: 21.3rem;
+  left: 23.3rem;
+
+ 
+  
+}
+
+#container img {
+  background-color: none;
+}
+
+#timer {
+  font-size:12.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+  
+ 
+}
+
+#controns {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.8rem;
+
+  widh: clamp(10rem, 10rem + 30vw, 22.8rem);
+  margin-top: 1rem;
+}
+
+
+
+#cards {
+  width: 30.8rem;
+  height: 33.6rem;
+  display: grid;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 100px 1fr;
+
+  padding-bottom: 10rem;
+
+  gap: 3.2rem;
+  margin-right: 5px;
+  margin-bottom: 18.8rem;
+}
+
+.sol {
+  position: fixed;
+  top: 7rem;
+  right: 3rem;
+  transform: translateY(-50%);
+}
+
+.lua img {
+  filter: invert(1) grayscale(1);
+  background-color: black;
+  position: fixed;
+  top: 7rem;
+  right: 3rem;
+  transform: translateY(-50%);
+}
+
+
+
+

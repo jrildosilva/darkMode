@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer Dark Mode</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <main>
+    <div class="container">
+ 
+      <div id="timer">
+        <span id="minutes" class="minutes">25</span>
+        <span class="divisão">:</span>
+        <span id="seconds" class="seconds">00</span>
+      </div>
+ 
+     <div id="controns">
+ 
+       <button  class="play" id="play" >
+         <img src="./imageDark/play.png" alt="desenho do play">
+       </button>
+   
+       <button class="stop " id="stop">
+         <img src="./imageDark/stop.png" alt="desenho do stop">
+       </button>
+   
+       <button id="add" class="add">
+         <img src="./imageDark/+.png" alt="desenho sinal de mais">
+       </button>
+   
+       <button id="decrease" class="decrease">
+         <img src="./imageDark/-.png" alt="desenho sinal de menos">
+       </button>
+ 
+     </div>
+ 
+ 
+    </div> 
+ 
+    <div id="cards" class="cards">
+     <button class="sound-floreta" >
+ 
+       <img src="./imageDark/Card 01.png" alt="desenho de uma arvore">
+       <span class="volume-slider"></span> 
+       <input type="range" min="0" max="1" step="0.1" value="1">
+     </button>
+     <button class="sound-rain" id="sound-rain">
+       <img src="./imageDark/Card 02.png" alt="desenho de uma nuvem com pingos">
+ 
+     </button>
+ 
+     <button class="sound-cafeteira">
+       <img src="./imageDark/Card 03.png" alt="desenho de uma casinha">
+      
+     </button>
+     <button class="sound-lareira">
+ 
+       <img src="./imageDark/Card 04.png" alt="desenho de uma chama de fogo">
+     </button>
+    </div>
+      
+    <button class="sol " id="sol ">
+      <img src="./imageDark/icon.png" alt="sol">
+    </button>
+
+    <button class="lua hide"  id="lua">
+      <img src="/imageDark/lua.png" alt="lua">
+    </button>
+
+   </main>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
